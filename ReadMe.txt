@@ -23,16 +23,16 @@ Họ tên: -------------------
 
 	Thiết kế lớp:
 	CArrayFraction 
-	+ mpFrctn: SFraction*		//con trỏ cấu trúc SFraction
-	+ mSize: int				//kích thước mảng
-    - CArrayFraction();				//default constructor
-	- CArrayFraction(int n);		//khởi tạo mảng n phân số, phát sinh ngẫu nhiên
-	- ~CArrayFraction();			//hủy
-	- FindMax(): SFraction;			//phân số lớn nhất mảng
-	- FindMin(): SFraction;			//phân số nhỏ nhất mảng
+	+ mpFrctn: SFraction*						//con trỏ cấu trúc SFraction
+	+ mSize: int								//kích thước mảng
+    - CArrayFraction();							//default constructor
+	- CArrayFraction(int n);					//khởi tạo mảng n phân số, phát sinh ngẫu nhiên
+	- ~CArrayFraction();						//hủy
+	- FindMax(): SFraction;						//phân số lớn nhất mảng
+	- FindMin(): SFraction;						//phân số nhỏ nhất mảng
 	- copy(const CArrayFraction &ob): void;		//copy, tối giản mảng ob, 
-	- CalcSum(): SFraction;			//phân số tổng
-	- show(): void;					//xuất mảng
+	- CalcSum(): SFraction;						//phân số tổng
+	- show(): void;								//xuất mảng
 
     SFraction operator+(SFraction a, SFraction b);	//dùng trong CalcSum()
 	ostream& operator<<(ostream &os, SFraction a);	//dùng trong show()
