@@ -25,7 +25,7 @@ Họ tên: -------------------
 	CArrayFraction 
 	+ mpFrctn: SFraction*				//con trỏ cấu trúc SFraction
 	+ mSize: int					//kích thước mảng
-    - CArrayFraction();				//default constructor
+    - CArrayFraction();					//default constructor
 	- CArrayFraction(int n);			//khởi tạo mảng n phân số, phát sinh ngẫu nhiên
 	- ~CArrayFraction();				//hủy
 	- FindMax(): SFraction;				//phân số lớn nhất mảng
